@@ -1,0 +1,7 @@
+begin 
+	push.1 
+	push.2 
+	repeat.30 
+		swap dup.1 add 
+	end 
+end
