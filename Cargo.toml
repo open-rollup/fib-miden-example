@@ -6,7 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sp-core = { version = "6.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.31" }
 miden-vm = { default-features = false, git = "https://github.com/open-rollup/miden-vm-fix-no-std.git", branch = "pallet-open-rollup" }
-pallet-open-rollup = { git = "https://github.com/open-rollup/pallet-open-rollup.git", branch = "main" }
+hex = "0.4"
 
